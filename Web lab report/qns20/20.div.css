@@ -1,0 +1,91 @@
+/* universal emement */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* name element selector */
+div{
+    width: 100%;
+   
+    margin: 0;
+}
+.list div{
+    width: 0;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid #aa2255;
+
+}
+/* Id selector */
+#p1{
+      width: 100%;
+padding: 10px;
+background-color: #aa2255;
+height: 50px;
+margin-bottom: 0;
+margin-left: 0;
+
+
+}
+
+#p2{
+    padding: 20px;
+    background-color: aquamarine;
+    height: 50px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+#p3{
+    float: left;
+height: 200px;
+background-color: rgb(99, 202, 202);
+ width: 30%;
+ text-align: center;
+ margin: 5px;
+ margin-top: 0;
+ margin-left: 0;
+ margin-right: 0;
+ margin-bottom: 0;
+}
+#p4 
+{
+    float: left;
+    background-color: bisque;
+    border: solid 2px rgb(70, 17, 66);
+    width: 50%;
+    height: 200px;
+    margin: 5px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+#p5 
+{
+margin-right: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  float: right;
+  border: solid2px rgb(138, 32, 32);
+  height: 200px;
+  width: 20%;
+  background-color: rgb(68, 14, 118);
+}
+#p6{
+    width: 100%;
+padding: 10px;
+background-color: #a1620f;
+height: 50px;
+margin-bottom: 0;
+margin-left: 0;
+
+
+}
