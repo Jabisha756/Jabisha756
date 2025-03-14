@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Qsn Submission</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 1.8em;
+        }
+
+  
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            padding: 10px;
+            width: 100%;
+            max-width: 500px;
+            margin: auto;
+            border-radius: 10px;
+            gap: 20px;
+        }
+
+        .navbar li {
+            list-style: none;
+            position: relative;
+        }
+
+        .navbar a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+            transition: background-color 0.5s ease-in-out;
+            border-radius: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: black;
+            color: white;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.2);
+            width: max-content;
+        }
+
+        .navbar li:hover .dropdown-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dropdown-content a {
+            font-size: 16px;
+            padding: 8px;
+            display: block;
+            white-space: nowrap;
+        }
+        .navbar:hover .link {
+            filter: blur(2px);
+            transition: filter 0.3s ease-in-out;
+        }
+
+        .navbar .link:hover {
+            filter: blur(0);
+            background-color: black;
+            color: white;
+        }
+
+        /* GitHub Link */
+        .github-link {
+            display: inline-block;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: black;
+            border: 2px solid white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.5s ease-in-out;
+        }
+
+        .github-link:hover {
+            background-color: white;
+            color: black;
+        }
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                max-width: 90%;
+            }
+        }
+    </style>
+  </head>
+<body>
+
+    <h1>Lab Questions Published</h1>
+    <ul class="navbar">
+        <li>
+            <a href="#">Qsns</a>
+            <ul class="dropdown-content">
+                <li><a href="qsn4/index.html" class="link">Qsn4</a></li>
+                <li><a href="qsn5/index.html" class="link">Qsn5</a></li>
+                <li><a href="qsn10/index.html" class="link">Qsn10</a></li>
+                <li><a href="qsn15/index.html" class="link">Qsn15</a></li>
+            </ul>
+        </li>
+        <li><a href="gallery.html">Images</a></li>
+    </ul>  
+
+   
+    <h1>Github Source</h1>
+    <a class="github-link" href="https://github.com/HellBlade10/Web-labqsns">Visit Repository</a>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+table {
+    width: 40%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+th {
+    background-color: white;
+}
+.lunch {
+    font-weight: bold;
+    text-align: center;
+}
+.project {
+    font-weight: bold;
+}
